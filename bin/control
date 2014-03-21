@@ -16,7 +16,7 @@ function replace_property_value {
 
 function setup() {
 	client_result "Setting up fabric container"
-
+        echo "zookeeper.encode.password=false" >> $FUSE_SYSPROPS_FILE
 	# Retrieve password
 	if [ ! -z "${OPENSHIFT_FUSE_ZOOKEEPER_PASSWORD:-}" ]; then
 		client_result "Using provided password from cartridge"
