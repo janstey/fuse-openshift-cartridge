@@ -4,6 +4,7 @@ Display-Name: JBoss Fuse 6.1.1 for xPaaS
 Description: "Runs a JBoss Fuse container on OpenShift."
 Version: '6.1.1'
 License: "ASL 2.0"
+Source-Url: https://github.com/janstey/fuse-openshift-cartridge/archive/openshift-enterprise-fuse-rpm-6.1.zip
 License-Url: http://www.apache.org/licenses/LICENSE-2.0.txt
 Cartridge-Version: 0.0.1
 Compatible-Versions:
